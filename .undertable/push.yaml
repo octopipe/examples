@@ -3,7 +3,7 @@ name: example-push
 trigger:
   on: 
     - push
-  branches: ["feature-*"]
+  branches: ["main"]
 
 tasks:
   hello:
