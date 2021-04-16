@@ -1,0 +1,14 @@
+name: example-push
+
+trigger:
+  on: ["push"]
+  branch: ["main"]
+
+tasks:
+  hello:
+    steps:
+      - image: alpine
+        script: |
+          #!/usr/bin/env sh
+
+          echo "HELLO UNDERTABLE"
