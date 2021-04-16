@@ -1,8 +1,9 @@
 name: example-push
 
 trigger:
-  on: ["push"]
-  branch: ["main"]
+  on: 
+    - push
+  branches: ["main"]
 
 tasks:
   hello:
