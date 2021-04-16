@@ -1,8 +1,7 @@
 name: example-push
 
 trigger:
-  on: 
-    - push
+  events: ["push"]
   branches: ["feature-*"]
 
 tasks:
