@@ -1,7 +1,7 @@
 apiVersion: commons.cloudx.io/v1alpha1
 kind: Infra
 metadata:
-  name: demo-1
+  name: app-1-dev
   labels:
     revision: 0.0.1
 spec:
