@@ -5,7 +5,7 @@ metadata:
   labels:
     revision: 0.0.1
 spec:
-  author: Maycon Pacheco
+  author: maycommit
   description: Infra for example 2
   providerConfigRef:
     name: aws-config
