@@ -8,7 +8,7 @@ spec:
   author: maycommit
   description: Infra for example 2
   providerConfigRef:
-    name: app-1-providerconfig-dev
+    name: app-1-provider-config-dev
     namespace: default
   tasks:
   - name: demo-0-sns
