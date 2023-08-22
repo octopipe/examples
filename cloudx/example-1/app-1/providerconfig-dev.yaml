@@ -1,0 +1,12 @@
+apiVersion: commons.cloudx.io/v1alpha1
+kind: ProviderConfig
+metadata:
+  name: app-1-provider-config-dev
+spec:
+  type: AWS
+  source: CREDENTIALS
+  secretRef:
+    name: aws-creds
+    namespace: default
+  awsConfig:
+    region: 'us-east-1'
