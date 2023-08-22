@@ -52,7 +52,7 @@ spec:
     outputs: []
     inputs:
     - key: name
-      value: my-topic-2
+      value: my-topic-two
     - key: region
       value: us-east-1
 
