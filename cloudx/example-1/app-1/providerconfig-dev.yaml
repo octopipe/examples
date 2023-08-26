@@ -4,7 +4,7 @@ metadata:
   name: app-1-provider-config-dev
 spec:
   type: AWS
-  source: CREDENTIALS
+  source: STATIC_CREDENTIALS
   secretRef:
     name: aws-dev-creds
     namespace: default
