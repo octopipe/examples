@@ -30,24 +30,23 @@ spec:
       items:
       - key: arn
 
-  - name: demo-1-sns
-    terraform:
-      source: oci://mayconjrpacheco/plugin:sns-1
-    depends: []
-    backend: terraform
-    outputs: []
-    inputs:
-    - key: name
-      value: my-topic-1
-    - key: region
-      value: us-east-1
+  # - name: demo-1-sns
+  #   terraform:
+  #     source: oci://mayconjrpacheco/plugin:sns-1
+  #   depends: []
+  #   backend: terraform
+  #   outputs: []
+  #   inputs:
+  #   - key: name
+  #     value: my-topic-1
+  #   - key: region
+  #     value: us-east-1
 
   - name: demo-2-sns
     terraform:
       source: oci://mayconjrpacheco/plugin:sns-1
     depends:
     - demo-0-sns
-    - demo-1-sns
     backend: terraform
     outputs: []
     inputs:
