@@ -6,7 +6,7 @@ spec:
   type: AWS
   source: CREDENTIALS
   secretRef:
-    name: aws-creds
+    name: aws-dev-creds
     namespace: default
   awsConfig:
     region: 'us-east-1'
