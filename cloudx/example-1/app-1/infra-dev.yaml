@@ -47,7 +47,6 @@ spec:
       source: oci://mayconjrpacheco/plugin:sns-1
     depends:
     - demo-0-sns
-    - demo-1-sns
     backend: terraform
     outputs: []
     inputs:
